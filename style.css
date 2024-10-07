@@ -1,0 +1,54 @@
+*,*::after,*::before{
+   box-sizing: boder-box;
+}
+
+*{
+margin:0px;
+padding:0px;
+}
+
+body{
+      width:100vw;
+      height:100vh;
+      display: flex;
+justify-content: center;
+align-items: center;
+}
+main{
+    width: 500px;
+height: 300px;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+main .btn1{
+    width: 54px;
+    height: 24px;
+    display: flex;
+    background: #6e716f;
+    cursor: pointer;
+}
+main .btn2{
+    width: 54px;
+    height: 24px;
+    display: flex;
+    background: #eef3ef;
+  cursor: pointer;
+}
+main .btn3{
+    width: 54px;
+    height: 24px;
+    display: flex;
+    background: #04962b;
+    cursor: pointer;
+}
+main .btn4{
+    width: 54px;
+    height: 24px;
+    display: flex;
+    background: #e40404;
+    cursor: pointer;
+}
+
